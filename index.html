@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick And Morty</title>
+    <link rel="stylesheet" href="./resources/css/style.css"/>
+</head>
+<body>
+    <div class="content">
+        <section class="content__main">
+            <div class="home-content">
+                <img class="home-content__image" src="./resources/images/Rick_and_Morty_-_logo.png" alt="logo"/>
+                <ul class="home-content__options-list">
+                    <li class="home-content__option"><a href="#ContentChallenge" onclick="fetchChallenge()" class="home-content__link">Challenge Platzi</a></li>
+                    <li class="home-content__option"><a href="#ContentCharacters" onclick="fetchCharacters()" class="home-content__link">Characters</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="ContentChallenge" class="content__option">
+            <div class="card">
+                <div class="card__body">
+                    <div class="card__properties">
+                        <h5 class="card__title">Number of Characters:</h5>
+                        <p class="card__text" id="NumberCharacters"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <figure class="card__figure card__figure--border-bottom">
+                    <img id="CharacterImage" class="card__image" src="" alt=""/>
+                    <figcaption id="CharacterName" class="card__figcaption"></figcaption>
+                </figure>
+                <div class="card__body">
+                    <div class="card__properties">
+                        <h5 class="card__title">Dimension:</h5>
+                        <p class="card__text" id="Dimension"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="ContentCharacters" class="content__option">
+            <div class="content__list">
+                
+            </div>
+        </section>
+    </div>
+
+    <script src="./resources/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "consume-rick-and-morty-api",
+  "version": "1.0.0",
+  "description": "Practica curso de asincronismo con Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback:challenge": "node src/logic/fetchApiCallback.js",
+    "promise:challenge": "node src/logic/fetchApi.js",
+    "async:challenge": "node src/logic/fetchApiAsync.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACJean/consume-rick-and-morty-api.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "ACJean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACJean/consume-rick-and-morty-api/issues"
+  },
+  "homepage": "https://github.com/ACJean/consume-rick-and-morty-api#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}

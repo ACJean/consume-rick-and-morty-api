@@ -1,1 +1,1 @@
-# https-github.com-ACJean-consume-rick-and-morty-api
+# CONSUME RICK AND MORTY API
